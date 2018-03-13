@@ -1,0 +1,14 @@
+name: Edu
+type: theme
+description: 'Educational drupal theme'
+core: 8.x
+
+libraries:
+  - edu/bootstrap
+  - edu/custom
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'

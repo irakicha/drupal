@@ -1,0 +1,9 @@
+uuid: 46f5416c-cbfa-4832-8140-4ce5b4b4a3f1
+langcode: en
+status: true
+dependencies: {  }
+name: Authors
+vid: authors
+description: 'Book Authors'
+hierarchy: 0
+weight: 0

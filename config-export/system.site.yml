@@ -1,0 +1,14 @@
+uuid: e1894ffb-45d7-4dad-97d1-b33eaa2a9393
+name: 'Drupal test'
+mail: irakicha@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/21
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

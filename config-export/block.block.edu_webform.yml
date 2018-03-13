@@ -1,0 +1,28 @@
+uuid: 1ea36910-9f25-4928-bb43-c373345aaaba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - webform
+  theme:
+    - edu
+id: edu_webform
+theme: edu
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: visible
+  webform_id: contact
+  default_data: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

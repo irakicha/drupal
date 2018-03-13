@@ -1,0 +1,22 @@
+uuid: fcbc1ba4-eacd-4700-a560-3a54c046b776
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - edu
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: edu_content
+theme: edu
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

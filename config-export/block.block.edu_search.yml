@@ -1,0 +1,33 @@
+uuid: b498f8bb-ed17-44b5-8235-c39002899936
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - search
+  theme:
+    - edu
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: edu_search
+theme: edu
+region: sidebar
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      books: books
+      page: page
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

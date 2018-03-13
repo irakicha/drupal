@@ -1,0 +1,17 @@
+bootstrap:
+  version: 4.0
+  js:
+    https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js: { type: external, minified: true }
+  css:
+      theme:
+        https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css: { type: external, minified: true }
+
+
+custom:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/edutheme.js: {}
+

@@ -1,0 +1,55 @@
+uuid: e449cba9-6500-4a64-ab63-40c933865fd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.books.body
+    - field.field.node.books.field_authors
+    - field.field.node.books.field_genres
+    - field.field.node.books.field_image
+    - node.type.books
+  module:
+    - image
+    - text
+    - user
+id: node.books.default
+targetEntityType: node
+bundle: books
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_authors:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_genres:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
