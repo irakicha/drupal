@@ -1,5 +1,5 @@
 first_module.content:
-  path: '/first'
+  path: '/edu'
   defaults:
     _controller: 'Drupal\edumodule\Controller\EduController::content'
     _title: 'Hello world'

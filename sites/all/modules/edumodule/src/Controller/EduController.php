@@ -15,4 +15,5 @@ class EduController extends ControllerBase {
       '#markup' => t('Hello world'),
     );
   }
+
 }
