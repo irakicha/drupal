@@ -1,0 +1,21 @@
+uuid: ab478877-080f-4f48-93cd-6b7bcf1e1506
+langcode: en
+status: true
+dependencies:
+  module:
+    - edumodule
+  theme:
+    - edu
+id: edublock
+theme: edu
+region: sidebar
+weight: 0
+provider: null
+plugin: edu_block
+settings:
+  id: edu_block
+  label: 'Edu block'
+  provider: edumodule
+  label_display: visible
+  hello_block_name: Vasya
+visibility: {  }
